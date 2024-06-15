@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1.3.0/dist/aframe-master.min.js"></script>
 
-<script src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+<script src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js'></script>
 
 
 
@@ -56,7 +56,7 @@
         embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
 
         <a-assets>
-            <video src="sketch3.mp4"
+            <video src="https://github.com/PrakritiiJoshi/ARjs/blob/main/sketch3.mp4"
                 preload="auto" id="vid" response-type="arraybuffer" loop
                 crossorigin webkit-playsinline autoplay muted playsinline>
             </video>
@@ -65,9 +65,9 @@
         <a-nft>
         
             videohandler
-            type='nft' url='[marker goes here]'
+            type='nft' url='https://github.com/PrakritiiJoshi/ARjs/tree/ccb7eac8d97f7dce388c958eca83de32b31ba875/markers'
             smooth="true" smoothCount="10" smoothTolerance="0.01" smoothThreshold="5"
-        >
+    
             <a-video
                 src="#vid"
                 position='50 150 -100'
